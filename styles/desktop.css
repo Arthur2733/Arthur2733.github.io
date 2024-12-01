@@ -15,11 +15,12 @@ header {
 
 }
 
-.M'authentifier {
-    background-color: orange;
-    border: 0.2px solid #8f8f9d;
+.Bt_Auth {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 15px;
     border-radius: 5px;
-    padding: 3px;
-    color: black;
-    text-align: center;
-}
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+} 
