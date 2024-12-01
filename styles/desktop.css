@@ -1,0 +1,17 @@
+header {
+    background-color: #41b474;
+    color: white;
+    display: flex; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.carotte {
+    align-items: left;
+
+}
+
+.Logo {
+    align-items: center;
+
+}
