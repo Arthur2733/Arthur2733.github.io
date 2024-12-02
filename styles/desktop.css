@@ -7,21 +7,24 @@ header {
 
 .carotte {
     align-items: left;
+    width: 4em;
+    height: 4em;
 
 }
 
 .Logo {
     align-items: center;
+    width: 4em;
+    height: 4em;
 
 }
 
+
 .Bt_Auth {
-    background-color: #ffc107;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: #000000;
-    font-weight: bold;
+    background-color: #f4b183; 
+    border: none; 
+    padding: 5px 15px;
+    border-radius: 5px; 
     cursor: pointer;
 } 
 
