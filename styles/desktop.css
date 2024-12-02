@@ -8,3 +8,13 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #a8d5a5;
 }
+/* Style général pour les sections */
+section {
+    margin-bottom: 40px;
+}
+ 
+/* Première section : Image et texte côte à côte */
+section:first-of-type {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
