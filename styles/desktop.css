@@ -82,3 +82,9 @@ section:nth-of-type(2) img {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+/* Légendes des promotions */
+section:nth-of-type(2) legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4CAF50;
+}
