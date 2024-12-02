@@ -10,8 +10,37 @@
     align-items: center;
   }
   
-  .carrot-icon {
+  .carrote-icon {
     width: 40px;
     height: auto;
     margin-right: 15px; /* Espacement entre la carotte et les autres éléments */
   }
+
+  .logo-container {
+    flex-grow: 1; /* Permet au logo de se centrer */
+    text-align: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .search-bar {
+    width: 70%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+  }
+  
