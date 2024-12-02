@@ -27,3 +27,17 @@ section:first-of-type img {
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+/* Style pour le texte */
+section:first-of-type div h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+}
+ 
+section:first-of-type div p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: justify;
+}
