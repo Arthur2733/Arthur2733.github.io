@@ -29,3 +29,44 @@ main > section:first-child div:first-child img {
     border-radius: 10px;
 }
 
+main > section:first-child div:last-child {
+    flex: 1;
+}
+ 
+main > section:first-child div:last-child h1 {
+    margin: 0 0 10px;
+}
+ 
+main > section:first-child div:last-child p {
+    text-align: justify;
+    line-height: 1.6;
+}
+ 
+/* Section "Promotions" */
+main > section:last-child {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+ 
+main > section:last-child div {
+    text-align: center;
+}
+ 
+main > section:last-child div h2 {
+    grid-column: span 4;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+ 
+main > section:last-child div img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+ 
+main > section:last-child div img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
