@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header-wrapper {
     background-color: #a8d5a5; /* Couleur de fond verte pastel */
     border-bottom: 2px solid #ccc;
@@ -18,9 +17,9 @@
   }
 
   .auth-button {
-    background-color: #f4b183;
-    color: black;
-    border: none;
+    background-color: #0b0700;
+    color: #a8d5a5;
+    border: 8px black;
     padding: 8px 15px;
     border-radius: 5px;
     font-size: 14px;
@@ -34,11 +33,13 @@
   }
   
   .logo {
-    width: 60px;
+    width: 100px;
     height: auto;
   }
 
   .search-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 70%;
     padding: 8px;
     border-radius: 20px;
@@ -47,7 +48,7 @@
   }
   
   .search-icon {
-    position: absolute;
+    position: absolute center;
     right: 10%;
     top: 50%;
     transform: translateY(-50%);
@@ -57,7 +58,7 @@
   }
 
   .cart-icon {
-    font-size: 24px;
+    font-size: 30px;
     cursor: pointer;
     margin-left: 15px;
   }
@@ -85,11 +86,9 @@
     transition: color 0.3s ease;
   }
   
-=======
 /* Style pour le conteneur principal */
 main {
     padding: 20px;
-    background-color: #f9f9f9;
     margin: 20px auto;
     max-width: 1200px;
     border-radius: 10px;
@@ -110,7 +109,8 @@ section:first-of-type {
  
 /* Style pour l'image dans la première section */
 section:first-of-type img {
-    width: 100%;
+    margin-top: 40px;
+    width: 520px;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -176,4 +176,3 @@ section:nth-of-type(2) legend {
     font-weight: bold;
     color: #4CAF50;
 }
->>>>>>> origin/mathis
