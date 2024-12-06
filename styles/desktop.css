@@ -1,5 +1,6 @@
 .header-wrapper {
     background-color: #a8d5a5; /* Couleur de fond verte pastel */
+    border-bottom: 2px solid #ccc;
     padding: 10px 20px;
   }
 
@@ -59,10 +60,11 @@
   .cart-icon {
     font-size: 40px;
     cursor: pointer;
-    margin-left: 55px;
+    margin-left: 60px;
   }
   
   .address {
+    text-align: center;
     font-size: 14px;
     color: #333;
     margin-left: 15px;
