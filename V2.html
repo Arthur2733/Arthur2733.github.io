@@ -7,88 +7,90 @@
 </head>
 <body>
 
-  <div class="header-wrapper">
-    <div class="header-left">
-      <header class="header">      
-          <img src="media/pictures/carotte.png" alt="Carotte" class="carrote-icon">
-          <button class="auth-button">M'authentifier</button>
+    <div class="header-wrapper">
+      <div class="header-left">
+        <header class="header">      
+            <img src="media/pictures/carotte.png" alt="Carotte" class="carrote-icon">
+            <button class="auth-button">M'authentifier</button>
 
 
-        <div class="logo-container">
-          <img src="media/pictures/Logo.png" alt="Logo" class="logo">
-          <div class="header-center">
-            <input type="text" class="search-bar" placeholder="Rechercher">
-            <span class="search-icon">🔍</span>
+          <div class="logo-container">
+            <img src="media/pictures/Logo.png" alt="Logo" class="logo">
+            <div class="header-center">
+              <input type="text" class="search-bar" placeholder="Rechercher">
+              <span class="search-icon">🔍</span>
+            </div>
           </div>
-        </div>
-    
-       
-        <div class="header-right">
-          <div> 
-            <span class="cart-icon">🧺</span> 
-          </div>        
-            <span class="address"><p align="center">900 Rue Harguin Etcheberry, <br> 64210 Bidart</p></span>
-        </div>
-
-      </header>
       
-      <nav class="menu-bar">
-        <a href="Accueil" class="menu-item">Accueil</a>
-        <a href="#" class="menu-item">Commander</a>
-        <a href="#" class="menu-item">Nos produits</a>
-        <a href="#" class="menu-item">L'entreprise</a>
-        <a href="#" class="menu-item">Contacts</a>
-      </nav>
+        
+          <div class="header-right">
+            <div> 
+              <span class="cart-icon">🧺</span> 
+            </div> 
+            <div>       
+              <p class="address">900 Rue Harguin Etcheberry, <br> 64210 Bidart</p>
+            </div>
+          </div>
+
+        </header>
+        
+        <nav class="menu-bar">
+          <a href="Accueil" class="menu-item">Accueil</a>
+          <a href="#" class="menu-item">Commander</a>
+          <a href="#" class="menu-item">Nos produits</a>
+          <a href="#" class="menu-item">L'entreprise</a>
+          <a href="#" class="menu-item">Contacts</a>
+        </nav>
+      </div>
+
+      <main>
+      <h1>Panier</h1>
+
+      <section>
+          <thead>
+            <tr>
+              <th>Produits</th>
+              <th>Prix unitaire</th>
+              <th>Quantité</th>
+              <th>Sous-total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div>Image Produit 1</div>
+                Produit 1
+              </td>
+              <td>x.xx €</td>
+              <td><input type="number" value="3" min="1"></td>
+              <td>x.xx €</td>
+            </tr>
+            <tr>
+              <td>
+                <div>Image Produit 2</div>
+                Produit 2
+              </td>
+              <td>x.xx €</td>
+              <td><input type="number" value="3" min="1"></td>
+              <td>x.xx €</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Total</h2>
+        <p>HT : x.xx €</p>
+        <p>TTC : x.xx €</p>
+        <p>Montant à payer : x.xx €</p>
+        <button>Finaliser la commande</button>
+      </section>
+
+      <section>
+        <h2>Promotion</h2>
+        <p>Image promotions</p>
+      </section>
+    </main>
   </div>
-  
-    <main>
-    <h1>Panier</h1>
-
-    <section>
-        <thead>
-          <tr>
-            <th>Produits</th>
-            <th>Prix unitaire</th>
-            <th>Quantité</th>
-            <th>Sous-total</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <div>Image Produit 1</div>
-              Produit 1
-            </td>
-            <td>x.xx €</td>
-            <td><input type="number" value="3" min="1"></td>
-            <td>x.xx €</td>
-          </tr>
-          <tr>
-            <td>
-              <div>Image Produit 2</div>
-              Produit 2
-            </td>
-            <td>x.xx €</td>
-            <td><input type="number" value="3" min="1"></td>
-            <td>x.xx €</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section>
-      <h2>Total</h2>
-      <p>HT : x.xx €</p>
-      <p>TTC : x.xx €</p>
-      <p>Montant à payer : x.xx €</p>
-      <button>Finaliser la commande</button>
-    </section>
-
-    <section>
-      <h2>Promotion</h2>
-      <p>Image promotions</p>
-    </section>
-  </main>
-
 </body>
 </html>
